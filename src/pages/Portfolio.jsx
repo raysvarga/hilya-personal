@@ -4,7 +4,58 @@ import PortfolioItem from '../components/PortfolioItem'
 
 export default function Portfolio() {
   const portfolioItems = [
-    // ... (array portfolioItems sama seperti sebelumnya)
+    {
+      title: "Brand Awareness Campaign",
+      category: "Marketing",
+      description: "University project developing a 360-degree campaign for local fashion brand to increase market share among Gen Z consumers.",
+      tags: ["Strategic Planning", "Social Media", "Influencer Marketing"],
+      link: "#",
+      image: "https://placehold.co/600x400",
+      details: {
+        objective: "Increase brand awareness by 25% among Gen Z consumers",
+        strategy: "Integrated social media and influencer campaign with experiential marketing elements",
+        result: "Achieved 35% increase in social engagement and 18% sales lift"
+      }
+    },
+    {
+      title: "Media Relations Program",
+      category: "Public Relations",
+      description: "Press conference coordination and media outreach for product launch including press kit development.",
+      tags: ["Press Release", "Media Relations", "Event Management"],
+      link: "#",
+      image: "https://placehold.co/600x400",
+      details: {
+        objective: "Secure coverage in top 10 media outlets",
+        strategy: "Targeted journalist outreach with customized angles",
+        result: "12 major media coverages including 2 national newspapers"
+      }
+    },
+    {
+      title: "Crisis Communication Plan",
+      category: "Public Relations",
+      description: "Developed crisis playbook for potential product recall scenario including key messaging and stakeholder mapping.",
+      tags: ["Crisis Management", "Stakeholder Engagement", "Message Development"],
+      link: "#",
+      image: "https://placehold.co/600x400",
+      details: {
+        objective: "Prepare organization for potential crisis scenario",
+        strategy: "Scenario planning and spokesperson training",
+        result: "Executed flawless crisis simulation exercise"
+      }
+    },
+    {
+      title: "Social Media Content Strategy",
+      category: "Marketing",
+      description: "Created 3-month content calendar and engagement strategy for startup's LinkedIn and Instagram platforms.",
+      tags: ["Content Planning", "Community Management", "Performance Analytics"],
+      link: "#",
+      image: "https://placehold.co/600x400",
+      details: {
+        objective: "Increase engagement by 40%",
+        strategy: "Data-driven content optimization",
+        result: "Achieved 65% engagement increase and 200% follower growth"
+      }
+    }
   ]
 
   const [filteredItems, setFilteredItems] = useState(portfolioItems)
