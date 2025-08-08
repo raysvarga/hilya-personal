@@ -1,6 +1,6 @@
-import Hero from "../components/Hero";
-import Skills from "../components/Skills";
-import HighlightProjects from "../components/HighlightProjects";
+import Hero from "../components/Hero.jsx";
+import Skills from "../components/Skills.jsx";
+import HighlightProjects from "../components/HighlightProjects.jsx";
 import Testimonials from "../components/Testimonials.jsx";
 
 export default function Home() {
