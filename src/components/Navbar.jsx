@@ -11,7 +11,7 @@ export default function Navbar() {
           {/* Logo */}
           <div className="flex items-center">
             <Link to="/" className="text-xl font-bold text-indigo-700">
-              Portofolio<span className="text-blue-500"> Hilya</span>
+              Hilya Fuady<span className="text-blue-500"> | Portofolio</span>
             </Link>
           </div>
 
